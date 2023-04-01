@@ -1,12 +1,16 @@
 import React from 'react';
+import './BookMark.css'
 
-const BookMark = ({bookMark}) => {
-console.log(bookMark)
+const BookMark = (props) => {
+    const bookMark =props.bookMark
+    console.log(bookMark)
+    // const {title,id} =props.bookMark
+// console.log(bookMark)
 
     return (
-        <div>
-            <h3>Bookmark blogs:{bookMark.length}</h3>
-            <p>title:{bookMark.title}</p>
+        <div className='bookmark'>
+            <h3>Bookmark blogs:</h3>
+            <p>title:</p>
         </div>
     );
 };

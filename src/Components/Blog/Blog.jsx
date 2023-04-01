@@ -6,6 +6,7 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 const Blog = (props) => {
     const { author, title, cover, img, readTime, publishDate } = props.blog
    const showBookMark =props.showBookMark;
+  
 
     return (
         <div className='blog-container'>

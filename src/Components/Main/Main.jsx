@@ -5,19 +5,22 @@ import BookMark from '../BookMark/BookMark';
 
 const Main = () => {
     const [blogs, setBlogs] = useState([])
+
     const [bookMark,setBookMark] =useState([])
 
     useEffect(() => {
         fetch('FakeDb.json')
             .then(res => res.json())
             .then(data => setBlogs(data))
-    }, [])
+    }, []);
 
-    const showBookMark =(title) =>{
-        const newBookMark =[...bookMark,title];
-        setBookMark(newBookMark)
+    const showBookMark =(blog) =>{
+        const newBookMark =[...bookMark,blog];
+        console.log(setBookMark(newBookMark))
+        
         
     }
+    // console.log(bookMark)
 
     return (
         <div className='main-container'>
@@ -32,11 +35,9 @@ const Main = () => {
                 }
             </div>
             <div className='bookmark-section'>
-                <BookMark 
-              
-                bookMark={bookMark}
-                 ></BookMark> 
-                
+                <BookMark bookMark={bookMark}></BookMark> 
+                {/* <h3>Bookmark blogs:{bookMark.length}</h3>
+                <h3>Bookmark blogs:{bookMark[2]}</h3> */}
 
 
             </div>
