@@ -18,6 +18,7 @@ const Header = () => {
                     <img src={image} alt="" />
                 </div>
             </div>
+            
         </nav>
     );
 };
