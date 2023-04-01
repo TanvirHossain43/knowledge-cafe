@@ -3,7 +3,12 @@
     padding-left: 20px;
     margin: auto;
     margin-bottom: 10px;
+   
 
+}
+.border-bottom{
+    margin-top:20px ;
+    margin-bottom:20px ;
 }
 
 .blog-cover {

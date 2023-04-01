@@ -20,7 +20,6 @@ const Main = () => {
 
 
     }
-    // console.log(bookMark)
 
     return (
         <div className='main-container'>

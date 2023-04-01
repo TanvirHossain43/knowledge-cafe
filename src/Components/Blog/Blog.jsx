@@ -35,8 +35,10 @@ const Blog = (props) => {
                 
                 
             </div>
-
+           <hr className='border-bottom' />
         </div>
+        
+        
     );
 };
 
