@@ -1,0 +1,14 @@
+.question-section{
+ padding-left: 40px;
+ padding-right: 40px;
+}
+.question-section h3{
+    background-color: aquamarine;
+    padding: 5px;
+
+}
+.question-section p{
+    background-color:rgb(27, 17, 26);
+    color: white;
+    padding: 5px;
+}
