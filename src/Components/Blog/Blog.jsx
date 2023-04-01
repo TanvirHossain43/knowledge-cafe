@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Blog.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
+import BookMark from '../BookMark/BookMark';
 
 const Blog = (props) => {
     const { author, title, cover, img, readTime, publishDate } = props.blog
-   const showBookMark =props.showBookMark;
-  
-
+    const showBookMark = props.showBookMark;
+    
     return (
         <div className='blog-container'>
             <div className='blog-cover'>
@@ -26,11 +26,14 @@ const Blog = (props) => {
                 </div>
 
                 <div>
-                    <p>{readTime} min read <button onClick={()=>showBookMark(props.blog)}><FontAwesomeIcon icon={faBookmark} /></button></p>
+                    <p>{readTime} min read <button onClick={() => showBookMark(props.blog)}><FontAwesomeIcon icon={faBookmark} /></button></p>
                 </div>
             </div>
             <div className='blog-title'>
                 <h2>{title}</h2>
+                <a href="#" >Mark as read</a>
+                
+                
             </div>
 
         </div>
