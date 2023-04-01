@@ -12,3 +12,11 @@
     color: white;
     padding: 5px;
 }
+.question-title{
+    background-color: rgb(19, 19, 153);
+    color: white;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -4,6 +4,7 @@ import './QuestionAnswer.css'
 const QuestionAnswer = () => {
     return (
         <div className='question-section'>
+            <h2 className='question-title'> Question Answer Section</h2>
             <h3>Difference between Props and  state?</h3>
             <p>Generally Props and state used for storing data .Although it has some differce like props are immutable and state is mutale.Props are used to pass data from parent to child components.whereas state is managed within the components it is declared in.</p>
 
