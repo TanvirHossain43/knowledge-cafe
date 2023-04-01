@@ -1,0 +1,49 @@
+.blog-container {
+    width: 700px;
+    padding-left: 20px;
+    margin: auto;
+  margin-bottom: 10px;
+
+}
+
+.blog-cover {
+    width: 700px;
+
+}
+.blog-title{
+    margin-top: 0px;
+}
+.blog-cover img {
+    width: 100%;
+}
+
+.blog-author {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.blog-author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.author-publish-date {
+    display: flex;
+    align-items: center;
+}
+
+.author-name p {
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.author-name h4 {
+    margin-bottom: 0px;
+}
+
+.author-name {
+    margin-left: 10px;
+}

@@ -1,38 +1,38 @@
 [
     {
         "id": "01",
-        "author-name": "Mr.Raju",
-        "blog-title": "How can You get better at what You do?",
-        "blog-cover-image": "",
+        "author": "Mr.Raju",
+        "title": "How can You get better at what You do?",
+        "cover": "https://media.istockphoto.com/id/1353769234/photo/training-and-skill-development-concept-with-icons-of-online-course-conference-seminar-webinar.jpg?b=1&s=170667a&w=0&k=20&c=Xvgely4jk8x3zPHifnzlsDg4Ou26QtH424SYrMfIbNo=",
         "img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-        "read-time": "10 minutes",
-        "publish-date": "10 March 2020"
+        "readTime": "10 min read",
+        "publishDate": "10 March 2020"
     },
     {
         "id": "02",
-        "author-name": "Emma Johnson",
-        "blog-title": "The Benefits of Keeping a Positive Attitude",
-        "blog-cover-image": "",
+        "author": "Emma Johnson",
+        "title": "The Benefits of Keeping a Positive Attitude",
+        "cover": "https://media.istockphoto.com/id/1462196073/photo/students-working-together-in-the-computer-lab.jpg?b=1&s=170667a&w=0&k=20&c=jPne9l7vEltuP4q0rr0zAGz25Ny2xGsMpxEIDnrkV2Y=",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo5TmPdRp9mhJQ4Unm0a8Bh0OXTRWHMNz0hQ&usqp=CAU",
-        "read-time": "12 minutes",
-        "publish-date": "17 December 2019"
+        "readTime": "12 min read",
+        "publishDate": "17 December 2019"
     },
     {
         "id": "03",
-        "author-name": "Mark Jones",
-        "blog-title": "How to Stay Creative in a Busy World",
-        "blog-cover-image": "",
+        "author": "Mark Jones",
+        "title": "How to Stay Creative in a Busy World",
+        "cover": "https://media.istockphoto.com/id/1265176772/photo/computer-programmer-working-on-laptop.jpg?b=1&s=170667a&w=0&k=20&c=WFs3P1MagycdwsHREPp-CMQ822Crv5q71-6nnikOBvs=",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfQW3Cezkxd2fZQ2BEAB992KYb1ZxG1LPFqw&usqp=CAU",
-        "read-time": "7 minutes",
-        "publish-date": "19 April 2019"
+        "readTime": "7 min read",
+        "publishDate": "19 April 2019"
     },
     {
         "id": "04",
-        "author-name": "Jane Smith",
-        "blog-title": "The Power of Self-Love and Self-Care",
-        "blog-cover-image": "",
+        "author": "Jane Smith",
+        "title": "The Power of Self-Love and Self-Care",
+        "cover": "https://media.istockphoto.com/id/1402992905/photo/glowing-lightbulb-or-bright-lamp-with-book-or-textbook-skill-improvement-for-student-or.jpg?b=1&s=170667a&w=0&k=20&c=bxgNhobXDqkuHoiCgeIcjOrCFMwiHNvDVr3SChOhh3A=",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6i8DMEVGgOMroNG_ef48R1Y42JHvsu_GFUw&usqp=CAU",
-        "read-time": "15 minutes",
-        "publish-date": "10 Feb 2022"
+        "readTime": "15 min read",
+        "publishDate": "10 Feb 2022"
     }
 ]
