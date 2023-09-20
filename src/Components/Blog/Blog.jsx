@@ -31,7 +31,7 @@ const Blog = (props) => {
             </div>
             <div className='blog-title'>
                 <h2>{title}</h2>
-                <a href="#" >Mark as read</a>
+                <a href="#" >Mark as reads</a>
                 
                 
             </div>
